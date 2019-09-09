@@ -14,15 +14,24 @@ button{
 }
 
 #user{
+	background-color:white;
 	width:50%;
 	height:100%;
-	float:left
+	float:left;
+
 }
 
 #comp{
-	background:orange;
+	background-color:white;
 	width:50%;
 	height:100%;
-	float:left
+	float:left;
 }
+
+img{
+	width:380px;
+	height:100%;
+	
+}
+
 
