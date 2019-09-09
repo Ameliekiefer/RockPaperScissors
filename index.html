@@ -25,13 +25,16 @@
 		<script>
 		
 		function rock(){
-			user=1;
+			user=1; 
+			document.getElementById("user").innerHTML="<img src='rock.jpg'>";
 		}
 		function paper(){
 			user=2;
+			document.getElementById("user").innerHTML="<img src='paper.jpg'>";
 		}
 		function scissors(){
 			user=3;
+			document.getElementById("user").innerHTML="<img src='scissors.jpg'>";
 		}
 		function go(){
 			comp=parseInt(Math.random()*3)+1;
